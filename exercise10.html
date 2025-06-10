@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Application Form Worksheet</title>
+  </head>
+  <body>
+    <h3>Application Form Worksheet</h3>
+    <p>
+      Practice filling out this application form. Print clearly and check your
+      spelling. Do not omit any important information. If there is something you
+      don’t understand, ask about it
+    </p>
+    <fieldset>
+      <h3>Application for Employment</h3>
+
+      <p>
+        <label for="date">Date of Application:</label>
+        <input type="date" id="date" name="date" required/><br />
+
+        <label for="position">Position Applied for:</label>
+        <input type="text" id="position" name="position" size="30" required/>
+      </p>
+
+      <p>
+        <label for="last_name">Name:</label>
+        <input type="text" id="last_name" name="last_name" placeholder="Last" required/>
+        <input
+          type="text"
+          id="first_name"
+          name="first_name"
+          placeholder="First"
+        required/>
+        <input
+          type="text"
+          id="middle_name"
+          name="middle_name"
+          placeholder="Middle"
+        required/>
+
+        <label for="ssn">SS#:</label>
+        <input type="text" id="ssn" name="ssn" size="20" required/>
+      </p>
+
+      <p>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" size="80" required/><br />
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required/>
+
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" required/>
+
+        <label for="zip">Zip:</label>
+        <input type="text" id="zip" name="zip" required/>
+      </p>
+
+      <p>
+        <label for="telephone">Telephone:</label>
+        <input type="text" id="telephone" name="telephone" required/><br />
+
+        <label for="signature">Signature:</label>
+        <input type="text" id="signature" name="signature" required/>
+      </p>
+
+      <fieldset><span><strong>EXPERIENCE</strong></span>
+      <span><strong>Begin with your most recent job.</strong></span></fieldset>
+
+      <p>
+        <label for="job_title1">Job Title:</label>
+        <input type="text" id="job_title1" name="job_title1" />
+
+        <label for="from1">From:</label>
+        <input type="text" id="from1" name="from1" />
+
+        <label for="to1">To:</label>
+        <input type="text" id="to1" name="to1" /><br />
+
+        <label for="company1">Company Name and Address:</label>
+        <input type="text" id="company1" name="company1" size="80" /><br />
+
+        <label for="duties1">Duties:</label>
+        <input type="text" id="duties1" name="duties1" size="60" />
+
+        <label for="reason1">Reason for Leaving:</label>
+        <input type="text" id="reason1" name="reason1" size="30" />
+      </p>
+
+      <p>
+        <label for="job_title2">Job Title:</label>
+        <input type="text" id="job_title2" name="job_title2" />
+
+        <label for="from2">From:</label>
+        <input type="text" id="from2" name="from2" />
+
+        <label for="to2">To:</label>
+        <input type="text" id="to2" name="to2" /><br />
+
+        <label for="company2">Company Name and Address:</label>
+        <input type="text" id="company2" name="company2" size="80" /><br />
+
+        <label for="duties2">Duties:</label>
+        <input type="text" id="duties2" name="duties2" size="60" />
+
+        <label for="reason2">Reason for Leaving:</label>
+        <input type="text" id="reason2" name="reason2" size="30" />
+      </p>
+
+      <fieldset><h4>EDUCATION / TRAINING</h4></fieldset>
+
+      <table>
+        <tr>
+          <th>Schools</th>
+          <th>Name</th>
+          <th>Subjects Studied</th>
+          <th>Years Attended</th>
+        </tr>
+        <tr>
+          <td>High School</td>
+          <td><input type="text" id="hs_name" name="hs_name" /></td>
+          <td><input type="text" id="hs_subjects" name="hs_subjects" /></td>
+          <td><input type="text" id="hs_years" name="hs_years" /></td>
+        </tr>
+        <tr>
+          <td>College(s) or University(s)</td>
+          <td><input type="text" id="college_name" name="college_name" /></td>
+          <td>
+            <input type="text" id="college_subjects" name="college_subjects" />
+          </td>
+          <td><input type="text" id="college_years" name="college_years" /></td>
+        </tr>
+        <tr>
+          <td>Trade School or Other Education</td>
+          <td><input type="text" id="trade_name" name="trade_name" /></td>
+          <td>
+            <input type="text" id="trade_subjects" name="trade_subjects" />
+          </td>
+          <td><input type="text" id="trade_years" name="trade_years" /></td>
+        </tr>
+      </table>
+
+      <p>
+        <label for="skills">Other skills or experiences:</label><br />
+        <textarea id="skills" name="skills" rows="3" cols="80"></textarea>
+      </p>
+
+      <p>
+        <label for="awards">Awards / Achievements:</label><br />
+        <textarea id="awards" name="awards" rows="2" cols="80"></textarea>
+      </p>
+
+      <fieldset><h4>REFERENCES</h4></fieldset>
+
+      <table>
+        <tr>
+          <td>
+            <label for="ref1_name">Name:</label>
+            <input type="text" id="ref1_name" name="ref1_name" /><br />
+
+            <label for="ref1_relation">Relationship:</label>
+            <input type="text" id="ref1_relation" name="ref1_relation" /><br />
+
+            <label for="ref1_phone">Telephone:</label>
+            <input type="text" id="ref1_phone" name="ref1_phone" />
+          </td>
+          <td>
+            <label for="ref2_name">Name:</label>
+            <input type="text" id="ref2_name" name="ref2_name" /><br />
+
+            <label for="ref2_relation">Relationship:</label>
+            <input type="text" id="ref2_relation" name="ref2_relation" /><br />
+
+            <label for="ref2_phone">Telephone:</label>
+            <input type="text" id="ref2_phone" name="ref2_phone" />
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+  </body>
+</html>
