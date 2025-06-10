@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+      <h1>Qeydiyyat</h1>
+
+      <form>
+        <label for="first_name">Ad (optional)</label><br />
+        <input type="text" id="first_name" name="first_name" /><br /><br />
+
+        <label for="last_name">Soyad (optional)</label><br />
+        <input type="text" id="last_name" name="last_name" /><br /><br />
+
+        <label for="email">Email</label><br />
+        <input type="email" id="email" name="email" /><br /><br />
+
+        <label for="age">Yaş (optional)</label><br />
+        <input type="number" id="age" name="age" /><br /><br />
+
+        <label for="dob">Doğum tarixiniz</label><br />
+        <input type="date" id="dob" name="dob" /><br /><br />
+
+        <label>Cinsiyyət</label><br />
+        <input type="radio" id="qadin" name="gender" value="qadin" />
+        <label for="qadin">Qadin</label><br />
+        <input type="radio" id="kisi" name="gender" value="kisi" />
+        <label for="kisi">Kisi</label><br /><br />
+
+        <label for="photo">Şekliniz</label><br />
+        <input type="file" id="photo" name="photo" /><br /><br />
+
+        <label for="password">Şifre</label><br />
+        <input type="password" id="password" name="password" /><br /><br />
+
+        <input type="submit" />
+      </form>
+
+      <br />
+      <a href="./login.html">Login</a>
+      <hr />
+      <iframe
+        width="520"
+        height="400"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+        id="gmap_canvas"
+        src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20Baku+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+      ></iframe>
+      <a href="https://mapseinbinden.net/">google maps auf homepage</a>
+      <script
+        type="text/javascript"
+        src="https://embedmaps.com/google-maps-authorization/script.js?id=991be5752c3757aeb454401afde2f1949c73b20e"
+      ></script>
+    </div>
+  </body>
+</html>
